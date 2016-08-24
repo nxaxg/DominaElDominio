@@ -1,363 +1,235 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <title>Projex</title>
+    <title>Dominia el Dominio</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!--font awesome 4.6-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--fonts quicksand & droidsand-->
     <link rel="stylesheet" href="fonts/quick-droid/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <!--JQuery-->
     <script src="js/jquery-1.11.3.js"></script>
     <!--script-->
     <script src="js/scripts.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon-dd-blue.png">
 </head>
 
 <body>
-    <header>
-        <div class="container-80">
-            <figure class="logo">
-                <a href="index.html">
-                    <img src="img/logo.png" alt="Logo projex">
-                </a>
-            </figure>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a class="nav-op nav-sel" href="#main">Home</a></li>
-                    <li><a class="nav-op" href="#services">Services</a></li>
-                    <li><a class="nav-op" href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-op" href="#team">Our team</a></li>
-                    <li><a class="nav-op" href="#blog">Blog</a></li>
-                    <li><a class="nav-op" href="#contact">Contact us</a></li>
-                </ul>
-            </nav>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="header col-lg-10 col-lg-offset-1 col-md-12">
+                <figure class="logo col-lg-3">
+                    <a href="index.html">
+                        <!-- logo marca --><img src="img/icon-dd-full-white.png" alt="Logo projex"> </a>
+                </figure>
+                <nav class="col-lg-9">
+                    <!-- menu marca-->
+                    <ul class="nav-menu">
+                        <li><a class="nav-op nav-sel" href="#main" title="Arriba">Home</a></li>
+                        <li><a class="nav-op" href="#dominio" title="Conoce las bases del Dominio en internet">Qué es un Dominio</a></li>
+                        <li><a class="nav-op" href="#normativa" title="Como operan los Dominios en Chile">Normativa Nacional</a></li>
+                        <li><a class="nav-op" href="#nic" title="Conoce NIC Chile">NIC Chile</a></li>
+                        <li><a class="nav-op" href="#hosting" title="Aprende qué es un Hosting">Hosting</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-
     <!--main-->
-    <section id="main">
-        <div class="container-70">
-            <div class="cont-cols-2">
-                <div class="col-2">
-                    <h1 class="main-title">One page</h1>
-                    <h2 class="main-subtitle">Is all that you need</h2>
-                    <p class="main-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, fuga ea voluptatem vel explicabo aliquam quibusdam! Beatae a labore amet, aperiam aspernatur quae odio delectus libero commodi eum, quaerat at.</p>
-                    <div class="main-btns">
-                        <button class="btn btn-act">Our team</button>
-                        <button class="btn">Contact us</button>
+    <div class="container-fluid cont-reset">
+        <section id="main" class="col-lg-12">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="cont-cols-2 col-lg-12">
+                    <div class="col-2 col-lg-6">
+                        <h1 class="main-title">Conoce como gestionar tu dominio en simples pasos</h1>
+                        <p class="main-par">Aprende las bases para gestionar tu nombre de Dominio en internet para futuros proyectos web.</p>
+                        <div class="main-btns col-lg-12 text-center">
+                            <button class="btn btn-act" title="Comenzar viaje">Comenzar</button>
+                        </div>
+                    </div>
+                    <div class="col-2 col-lg-6">
+                        <figure class="main-img"> <img src="img/mac-icon-1.png" alt="Mac vector icon"> </figure>
                     </div>
                 </div>
-                <div class="col-2">
-                    <figure class="main-img">
-                        <img src="img/mac.png" alt="Main mac">
-                    </figure>
-                </div>
             </div>
-        </div>
-    </section>
-
-    <!--services-->
-    <section id="services" class="content">
-        <div class="container-80">
-            <h1 class="content-title">Our Services</h1>
-            <hr class="content-divider">
-            <div class="cont-cols-3">
+        </section>
+    </div>
+    
+    <!--dominios-->
+    <section id="dominio" class="content container-fluid">
+        <div class="col-lg-10 col-lg-offset-1">
+            <!--que es un dominio-->
+            <div class="dom-container row">
+                <h1 class="content-title col-lg-12">Qué es un Dominio?</h1>
+                <p class="col-lg-12 text-center"> Un dominio es el nombre con el que se conoce a un sitio web.
+                    <br>Existen dominios para todo tipo de empresa o servicio, y este es quien definirá el título bajo el cual será encontrado en Internet. </p>
+            </div>
+            <!--tipos de dominio-->
+            <div class="cont-cols-3 row">
+                <h2 class="content-subtitle col-lg-12">Tipos de dominios:</h2>
                 <!--col1-->
-                <div class="col-3">
-                    <figure class="serv-img">
-                        <img src="img/icon1.png" alt="Html5 & Css3 icon">
-                    </figure>
-                    <h2 class="serv-title">HTML5 &amp; CSS3</h2>
-                    <p class="serv-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt maiores aliquam sunt ad molestiae, ratione quam quisquam eligendi autem.</p>
+                <div class="col-3 col-lg-12">
+                    <h2 class="serv-title">Dominios Genéricos (gLTD)</h2>
+                    <p class="serv-par">Los dominios genéricos o gTLD (geopraphical Top Level Domain), son dominios que no se ajustan al ambiente de un país específico. Los conocemos por ser los más comunes y tienen extensiones .com, org, .net, etcétera. </p>
+                    <p class="serv-par">Los dominios con extensión .com son aquellas que se utilizan para empresas y organizaciones comerciales de todo el mundo. Aquellos con extensión .org lo utilizan organizaciones e instituciones sin ánimo de lucro y Organizaciones No Gubernamentales (ONG). Mientras que las empresas e instituciones relacionadas con servicios de Internet se definen por tener una extensión en .net. </p>
                 </div>
                 <!--col2-->
-                <div class="col-3">
-                    <figure class="serv-img">
-                        <img src="img/icon2.png" alt="SEO icon">
-                    </figure>
-                    <h2 class="serv-title">SEO optimization</h2>
-                    <p class="serv-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt maiores aliquam sunt ad molestiae, ratione quam quisquam eligendi autem.</p>
+                <div class="col-3 col-lg-12">
+                    <h2 class="serv-title">Dominios Territoriales (ccLTD)</h2>
+                    <p class="serv-par">Los dominios territoriales o ccTLD (country code Top Level Domain), son quienes se definen por adquirir un sitio con extensión única perteneciente a cada región. Por ejemplo, en México los dominios ccTLD terminan con la extensión .mx, en España este tipo de dominios termina en .es, o en Francia, la extensión es .fr, y en Chile con la extensión .cl.</p>
                 </div>
                 <!--col3-->
-                <div class="col-3 no-mr">
-                    <figure class="serv-img">
-                        <img src="img/icon3.png" alt="Graphic design icon">
-                    </figure>
-                    <h2 class="serv-title">Graphic Design</h2>
-                    <p class="serv-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt maiores aliquam sunt ad molestiae, ratione quam quisquam eligendi autem.</p>
+                <div class="col-3 col-lg-12">
+                    <h2 class="serv-title">Dominios de tercer nivel</h2>
+                    <p class="serv-par">Los dominios de tercer nivel son aquellos que tienen la misma finalidad que los dominios gTLD sólo que éstos adquieren también la identidad territorial de las ccTLD. Los dominios gubernamentales o educativos son característicos de este tipo. Sencillamente deben tener una terminación .com.mx, .edu.mx, etcétera.</p>
                 </div>
             </div>
         </div>
     </section>
-
-   <!--portfolio-->
-    <section id="portfolio" class="content">
-        <div class="container-80">
-            <h1 class="content-title">Our Portfolio</h1>
-            <hr class="content-divider">
-            <div class="cont-cols-2">
-                <!--project1-->
-                <figure class="project">
-                    <img src="img/project1.jpg" alt="Project 1">
-                    <figcaption>
-                        <h3 class="proj-title">Project 1</h3>
-                        <p class="proj-icons">
-                            <span class="fa fa-eye proj-icon"></span>
-                            <span class="fa fa-heart proj-icon"></span>
-                        </p>
-                    </figcaption>
-                </figure>
-                <!--project2-->
-                <figure class="project">
-                    <img src="img/project2.jpg" alt="Project 2">
-                    <figcaption>
-                        <h3 class="proj-title">Project 2</h3>
-                        <p class="proj-icons">
-                            <span class="fa fa-eye proj-icon"></span>
-                            <span class="fa fa-heart proj-icon"></span>
-                        </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="cont-cols-4">
-                <!--project3-->
-                <figure class="project">
-                    <img src="img/project3.jpg" alt="Project 3">
-                    <figcaption>
-                        <h3 class="proj-title">Project 3</h3>
-                        <p class="proj-icons">
-                            <span class="fa fa-eye proj-icon"></span>
-                            <span class="fa fa-heart proj-icon"></span>
-                        </p>
-                    </figcaption>
-                </figure>
-                <!--project4-->
-                <figure class="project">
-                    <img src="img/project4.jpg" alt="Project 4">
-                    <figcaption>
-                        <h3 class="proj-title">Project 4</h3>
-                        <p class="proj-icons">
-                            <span class="fa fa-eye proj-icon"></span>
-                            <span class="fa fa-heart proj-icon"></span>
-                        </p>
-                    </figcaption>
-                </figure>
-                <!--project5-->
-                <figure class="project">
-                    <img src="img/project3.jpg" alt="Project 5">
-                    <figcaption>
-                        <h3 class="proj-title">Project 5</h3>
-                        <p class="proj-icons">
-                            <span class="fa fa-eye proj-icon"></span>
-                            <span class="fa fa-heart proj-icon"></span>
-                        </p>
-                    </figcaption>
-                </figure>
-                <!--project6-->
-                <figure class="project">
-                    <img src="img/project6.jpg" alt="Project 6">
-                    <figcaption>
-                        <h3 class="proj-title">Project 6</h3>
-                        <p class="proj-icons">
-                            <span class="fa fa-eye proj-icon"></span>
-                            <span class="fa fa-heart proj-icon"></span>
-                        </p>
-                    </figcaption>
-                </figure>
+    <!--normativa-->
+    <section id="normativa" class="content container-fluid">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h1 class="content-title">Normativa Nacional</h1>
+            <!--regla1-->
+            <div class="row">
+                <div class="reglas col-lg-12">
+                    <h2 class="serv-title">I) Reglas para el registro de un nombre de dominio .CL</h2>
+                    <p class="serv-par">Autorizar la utilización del nombre de dominio de manera pública, así como también conocer el funcionamiento de internet y la Reglamentación para el Funcionamiento del Registro de Nombres del Dominio CL, sus Políticas y Procedimientos.</p>
+                </div>
+                <!--regla2-->
+                <div class="reglas col-lg-12">
+                    <h2 class="serv-title">II) Inscripción de un nombre de dominio .CL.</h2>
+                    <p class="serv-par">NIC Chile proveerá distintos medios para el pago de la tarifa por la inscripción de un registro, para aquellos clientes que inscriban nombres de dominio directamente ante él. La imposibilidad de utilizar alguno de dichos mecanismos no será excusa para que el solicitante no cumpla con su obligación de pagar, pudiendo optar por las otras alternativas de medios de pago disponibles.</p>
+                </div>
+                <!--regla3-->
+                <div class="reglas col-lg-12">
+                    <h2 class="serv-title">III) Del cambio de titular de un nombre de dominio .CL.</h2>
+                    <p class="serv-par">NEl cambio de titular de un nombre de dominio tendrá lugar en caso de cesión, sucesión por causa de muerte o por resolución de autoridad jurisdiccional, de acuerdo a las disposiciones del procedimiento respectivo.
+                        <br>Sin perjuicio de lo señalado, un nombre de dominio no podrá cederse si dicha cesión ha sido suspendida por resolución de un tribunal competente o por otra causa.</p>
+                </div>
+                <!--regla4-->
+                <div class="reglas col-lg-12">
+                    <h2 class="serv-title">IV) De la eliminación de un nombre de dominio.</h2>
+                    <p class="serv-par">El nombre de dominio podrá ser eliminado voluntariamente, o por decisión de autoridad jurisdiccional, o por no haberse renovado el dominio. Asimismo, será causal de eliminación de un nombre de dominio que los datos de identificación obligatorios del titular del dominio sean incompletos o inexactos.</p>
+                </div>
+                <!--regla5-->
+                <div class="reglas col-lg-12">
+                    <h2 class="serv-title">V) De la revocación de un nombre de dominio.</h2>
+                    <p class="serv-par">Toda persona natural o jurídica que estime afectados sus derechos por la inscripción de un nombre de dominio podrá pedir la revocación de esa inscripción, la cual se sujetará a la Política de Resolución de Controversias por Nombres de Dominio .CL.</p>
+                </div>
             </div>
         </div>
     </section>
-
-   <!--team-->
-    <section id="team" class="content">
+    
+    
+    <!--team-->
+    <section id="nic" class="content">
         <div class="container-80">
             <h1 class="content-title">Our Wonderful Team</h1>
             <hr class="content-divider">
             <div class="cont-cols-4">
                 <!--member-->
-                <figure class="member">
-                    <img src="img/team-member.jpg" alt="Team member 1">
+                <figure class="member"> <img src="img/team-member.jpg" alt="Team member 1">
                     <figcaption>
                         <h3 class="member-title">George Sjotdstet</h3>
                         <h4 class="member-subtitle">CEO / Founder</h4>
                         <p class="member-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reiciendis.</p>
-                        <p class="member-icons">
-                            <span class="fa fa-twitter member-icon"></span>
-                            <span class="fa fa-pinterest member-icon"></span>
-                            <span class="fa fa-facebook member-icon"></span>
-                            <span class="fa fa-google-plus member-icon"></span>
-                            <span class="fa fa-linkedin member-icon"></span>
-                        </p>
+                        <p class="member-icons"> <span class="fa fa-twitter member-icon"></span> <span class="fa fa-pinterest member-icon"></span> <span class="fa fa-facebook member-icon"></span> <span class="fa fa-google-plus member-icon"></span> <span class="fa fa-linkedin member-icon"></span> </p>
                     </figcaption>
                 </figure>
                 <!--member-->
-                <figure class="member">
-                    <img src="img/team-member.jpg" alt="Team member 2">
+                <figure class="member"> <img src="img/team-member.jpg" alt="Team member 2">
                     <figcaption>
                         <h3 class="member-title">Don Aese</h3>
                         <h4 class="member-subtitle">CEO / Founder</h4>
                         <p class="member-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reiciendis.</p>
-                        <p class="member-icons">
-                            <span class="fa fa-twitter member-icon"></span>
-                            <span class="fa fa-pinterest member-icon"></span>
-                            <span class="fa fa-facebook member-icon"></span>
-                            <span class="fa fa-google-plus member-icon"></span>
-                            <span class="fa fa-linkedin member-icon"></span>
-                        </p>
+                        <p class="member-icons"> <span class="fa fa-twitter member-icon"></span> <span class="fa fa-pinterest member-icon"></span> <span class="fa fa-facebook member-icon"></span> <span class="fa fa-google-plus member-icon"></span> <span class="fa fa-linkedin member-icon"></span> </p>
                     </figcaption>
                 </figure>
                 <!--member-->
-                <figure class="member">
-                    <img src="img/team-member.jpg" alt="Team member 3">
+                <figure class="member"> <img src="img/team-member.jpg" alt="Team member 3">
                     <figcaption>
                         <h3 class="member-title">Kenneth Eriksson</h3>
                         <h4 class="member-subtitle">CEO / Founder</h4>
                         <p class="member-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reiciendis.</p>
-                        <p class="member-icons">
-                            <span class="fa fa-twitter member-icon"></span>
-                            <span class="fa fa-pinterest member-icon"></span>
-                            <span class="fa fa-facebook member-icon"></span>
-                            <span class="fa fa-google-plus member-icon"></span>
-                            <span class="fa fa-linkedin member-icon"></span>
-                        </p>
+                        <p class="member-icons"> <span class="fa fa-twitter member-icon"></span> <span class="fa fa-pinterest member-icon"></span> <span class="fa fa-facebook member-icon"></span> <span class="fa fa-google-plus member-icon"></span> <span class="fa fa-linkedin member-icon"></span> </p>
                     </figcaption>
                 </figure>
                 <!--member-->
-                <figure class="member">
-                    <img src="img/team-member.jpg" alt="Team member 1">
+                <figure class="member"> <img src="img/team-member.jpg" alt="Team member 1">
                     <figcaption>
                         <h3 class="member-title">Nelson Bighetti</h3>
                         <h4 class="member-subtitle">CEO / Founder</h4>
                         <p class="member-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reiciendis.</p>
-                        <p class="member-icons">
-                            <span class="fa fa-twitter member-icon"></span>
-                            <span class="fa fa-pinterest member-icon"></span>
-                            <span class="fa fa-facebook member-icon"></span>
-                            <span class="fa fa-google-plus member-icon"></span>
-                            <span class="fa fa-linkedin member-icon"></span>
-                        </p>
+                        <p class="member-icons"> <span class="fa fa-twitter member-icon"></span> <span class="fa fa-pinterest member-icon"></span> <span class="fa fa-facebook member-icon"></span> <span class="fa fa-google-plus member-icon"></span> <span class="fa fa-linkedin member-icon"></span> </p>
                     </figcaption>
                 </figure>
             </div>
         </div>
     </section>
-
-   <!--blog-->
-    <section id="blog" class="content">
+    <!--blog-->
+    <section id="hosting" class="content">
         <div class="container-80">
             <h1 class="content-title">The Latest News</h1>
             <hr class="content-divider">
             <div class="cont-cols-3">
                 <!--post 1-->
-                <figure class="post">
-                    <img src="img/blog.jpg" alt="Blog post 1">
+                <figure class="post"> <img src="img/blog.jpg" alt="Blog post 1">
                     <figcaption>
                         <h3 class="blog-title">Theme Hotel Delux released</h3>
-                        <div class="blog-date">
-                            <span class="fa fa-calendar-o b-date-icon"></span>
+                        <div class="blog-date"> <span class="fa fa-calendar-o b-date-icon"></span>
                             <p class="b-date-par">15th September, 21:22</p>
                         </div>
-                        <p class="blog-par">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad repudiandae necessitatibus doloremque expedita, sunt numquam. Voluptatibus vero excepturi, blanditiis at, molestiae beatae cumque corrupti. Dolorum dolorem enim veritatis maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
+                        <p class="blog-par"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad repudiandae necessitatibus doloremque expedita, sunt numquam. Voluptatibus vero excepturi, blanditiis at, molestiae beatae cumque corrupti. Dolorum dolorem enim veritatis maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                         <div class="blog-icons">
-                            <p class="blog-editor">
-                                <span class="fa fa-user"></span> Dan Aese
-                            </p>
-                            <p class="blog-comment">
-                                <span class="fa fa-comments"></span> 10 comments
-                            </p>
+                            <p class="blog-editor"> <span class="fa fa-user"></span> Dan Aese </p>
+                            <p class="blog-comment"> <span class="fa fa-comments"></span> 10 comments </p>
                         </div>
                     </figcaption>
                 </figure>
                 <!--post 2-->
-                <figure class="post">
-                    <img src="img/blog.jpg" alt="Blog post 2">
+                <figure class="post"> <img src="img/blog.jpg" alt="Blog post 2">
                     <figcaption>
                         <h3 class="blog-title">Theme Hotel Delux released</h3>
-                        <div class="blog-date">
-                            <span class="fa fa-calendar-o b-date-icon"></span>
+                        <div class="blog-date"> <span class="fa fa-calendar-o b-date-icon"></span>
                             <p class="b-date-par">15th September, 21:22</p>
                         </div>
-                        <p class="blog-par">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad repudiandae necessitatibus doloremque expedita, sunt numquam. Voluptatibus vero excepturi, blanditiis at, molestiae beatae cumque corrupti. Dolorum dolorem enim veritatis maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
+                        <p class="blog-par"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad repudiandae necessitatibus doloremque expedita, sunt numquam. Voluptatibus vero excepturi, blanditiis at, molestiae beatae cumque corrupti. Dolorum dolorem enim veritatis maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                         <div class="blog-icons">
-                            <p class="blog-editor">
-                                <span class="fa fa-user"></span> Dan Aese
-                            </p>
-                            <p class="blog-comment">
-                                <span class="fa fa-comments"></span> 10 comments
-                            </p>
+                            <p class="blog-editor"> <span class="fa fa-user"></span> Dan Aese </p>
+                            <p class="blog-comment"> <span class="fa fa-comments"></span> 10 comments </p>
                         </div>
                     </figcaption>
                 </figure>
                 <!--post 3-->
-                <figure class="post">
-                    <img src="img/blog.jpg" alt="Blog post 3">
+                <figure class="post"> <img src="img/blog.jpg" alt="Blog post 3">
                     <figcaption>
                         <h3 class="blog-title">Theme Hotel Delux released</h3>
-                        <div class="blog-date">
-                            <span class="fa fa-calendar-o b-date-icon"></span>
+                        <div class="blog-date"> <span class="fa fa-calendar-o b-date-icon"></span>
                             <p class="b-date-par">15th September, 21:22</p>
                         </div>
-                        <p class="blog-par">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad repudiandae necessitatibus doloremque expedita, sunt numquam. Voluptatibus vero excepturi, blanditiis at, molestiae beatae cumque corrupti. Dolorum dolorem enim veritatis maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
+                        <p class="blog-par"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad repudiandae necessitatibus doloremque expedita, sunt numquam. Voluptatibus vero excepturi, blanditiis at, molestiae beatae cumque corrupti. Dolorum dolorem enim veritatis maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                         <div class="blog-icons">
-                            <p class="blog-editor">
-                                <span class="fa fa-user"></span> Dan Aese
-                            </p>
-                            <p class="blog-comment">
-                                <span class="fa fa-comments"></span> 10 comments
-                            </p>
+                            <p class="blog-editor"> <span class="fa fa-user"></span> Dan Aese </p>
+                            <p class="blog-comment"> <span class="fa fa-comments"></span> 10 comments </p>
                         </div>
                     </figcaption>
                 </figure>
             </div>
         </div>
     </section>
-    
-    <!--contact-->
-    <section id="contact" class="content">
-        <div class="container-80">
-            <h1 class="content-title">Contact Us</h1>
-            <hr class="content-divider">
-            <div class="cont-cols-2">
-                <div class="contact-form">
-                    <input type="text" class="input-100" placeholder="Name">
-                    <input type="email" class="input-100" placeholder="Email">
-                    <textarea cols="30" rows="10" class="input-100" placeholder="Message"></textarea>
-                </div>
-                <div class="contact-info">
-                    <h2 class="contact-title">Information</h2>
-                    <p class="contact-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia porro ab debitis reiciendis dolorem, dolore ipsum ullam excepturi architecto magni possimus magnam ad nemo dolorum, asperiores dignissimos rerum itaque totam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis nostrum, minima debitis eum, et rem explicabo corporis ut ratione eveniet.</p>
-                    <p class="contact-dirtel">
-                        <span class="fa fa-map-marker"></span> Calle falsa 123, Springfield
-                    </p>
-                    <p class="contact-dirtel">
-                        <span class="fa fa-phone"></span> (666) 123 4567
-                    </p>
-                    <div class="contact-btns">
-                        <button class="btn btn-act">Send message</button>
-                        <button class="btn">View map</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-   <!--footer-->
+    <!--footer-->
     <footer>
         <div class="container-80">
             <figure class="footer-logo">
                 <a href="#main"><img src="img/logo.png" alt="Logo projex"></a>
             </figure>
-            <p class="footer-copy">
-                &copy;Copyright <a href="https://github.com/nxaxg" target="_blank"><span class="fa fa-envira"></span>Cielosordo</a> MMXVI
-            </p>
+            <p class="footer-copy"> &copy;Copyright <a href="https://github.com/nxaxg" target="_blank"><span class="fa fa-envira"></span>Cielosordo</a> MMXVI </p>
         </div>
     </footer>
 </body>

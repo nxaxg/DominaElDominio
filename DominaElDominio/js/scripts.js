@@ -17,7 +17,8 @@ function myScroller() {
     $(window).scroll(function () {
         var scroll = posActual(); /*posicion actual*/
         function sticky() {
-            return $("header").addClass('sticky');
+            $("header").addClass('sticky');
+            $(".logo img").attr("src","../img/icon-dd-white.png");
         }
 
         function selectRemove() {
@@ -29,31 +30,27 @@ function myScroller() {
             $("header").removeClass('sticky');
             selectRemove();
             $('li:first-child>.nav-op').addClass('nav-sel');
-        } else if (scroll > tope && scroll < 1100) {
-            //services
+            $(".logo img").attr("src","../img/icon-dd-full-white.png");
+        } else if (scroll > tope && scroll < 1500) {
+            //dominio
             selectRemove();
             sticky();
             $('li:nth-child(2)>.nav-op').addClass('nav-sel');
-        } else if (scroll >= 1100 && scroll < 1900) {
-            //portfolio
+        } else if (scroll >= 1500 && scroll < 2550) {
+            //normativa
             selectRemove();
             sticky();
             $('li:nth-child(3)>.nav-op').addClass('nav-sel');
-        } else if (scroll >= 1900 && scroll < 2600) {
+        } else if (scroll >= 2500 && scroll < 3300) {
             //team
             selectRemove();
             sticky();
             $('li:nth-child(4)>.nav-op').addClass('nav-sel');
-        } else if (scroll >= 2600 && scroll < 3300) {
+        } else {
             //blog
             selectRemove();
             sticky();
             $('li:nth-child(5)>.nav-op').addClass('nav-sel');
-        } else {
-            //contact
-            selectRemove();
-            sticky();
-            $('li:nth-child(6)>.nav-op').addClass('nav-sel');
         }
     });
 }
