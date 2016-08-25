@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Dominia el Dominio</title>
     <!--Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
     <!--font awesome 4.6-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--fonts quicksand & droidsand-->
@@ -16,18 +18,17 @@
     <script src="js/jquery-1.11.3.js"></script>
     <!--script-->
     <script src="js/scripts.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon-dd-blue.png">
-</head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon-dd-blue.png"> </head>
 
 <body>
     <header class="container-fluid">
         <div class="row">
-            <div class="header col-lg-10 col-lg-offset-1 col-md-12">
-                <figure class="logo col-lg-3">
+            <div class="header col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+                <figure class="logo col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <a href="index.html">
                         <!-- logo marca --><img src="img/icon-dd-full-white.png" alt="Logo projex"> </a>
                 </figure>
-                <nav class="col-lg-9">
+                <nav class="col-lg-9 col-md-9 col-sm-9 hidden-xs">
                     <!-- menu marca-->
                     <ul class="nav-menu">
                         <li><a class="nav-op nav-sel" href="#main" title="Arriba">Home</a></li>
@@ -45,27 +46,27 @@
         <section id="main" class="col-lg-12">
             <div class="col-lg-10 col-lg-offset-1">
                 <div class="cont-cols-2 col-lg-12">
-                    <div class="col-2 col-lg-6">
+                    <div class="col-2 col-lg-6 col-md-6">
                         <h1 class="main-title">Conoce como gestionar tu dominio en simples pasos</h1>
                         <p class="main-par">Aprende las bases para gestionar tu nombre de Dominio en internet para futuros proyectos web.</p>
                         <div class="main-btns col-lg-12 text-center">
-                            <button class="btn btn-act" title="Comenzar viaje">Comenzar</button>
+                            <button class="btn btn-act" title="Comenzar viaje"> <a href="#dominio" title="Comienza tu viaje">Comenzar</a> </button>
                         </div>
                     </div>
-                    <div class="col-2 col-lg-6">
+                    <div class="col-2 col-lg-6 col-md-6">
                         <figure class="main-img"> <img src="img/mac-icon-1.png" alt="Mac vector icon"> </figure>
                     </div>
                 </div>
             </div>
         </section>
     </div>
-    
     <!--dominios-->
     <section id="dominio" class="content container-fluid">
         <div class="col-lg-10 col-lg-offset-1">
             <!--que es un dominio-->
             <div class="dom-container row">
                 <h1 class="content-title col-lg-12">Qué es un Dominio?</h1>
+                <figure class="col-lg-8 col-lg-offset-2"> <img src="img/browser.png" alt="Browser y ojo imagen" class="content-img img-responsive text-center"> </figure>
                 <p class="col-lg-12 text-center"> Un dominio es el nombre con el que se conoce a un sitio web.
                     <br>Existen dominios para todo tipo de empresa o servicio, y este es quien definirá el título bajo el cual será encontrado en Internet. </p>
             </div>
@@ -95,8 +96,10 @@
     <section id="normativa" class="content container-fluid">
         <div class="col-lg-10 col-lg-offset-1">
             <h1 class="content-title">Normativa Nacional</h1>
+            <!--img-content-->
+            <figure class="col-lg-8 col-lg-offset-2"> <img src="img/paco.png" alt="Pacos culiaos" class="content-img img-responsive text-center"> </figure>
             <!--regla1-->
-            <div class="row">
+            <div class="reglas-cont col-lg-12">
                 <div class="reglas col-lg-12">
                     <h2 class="serv-title">I) Reglas para el registro de un nombre de dominio .CL</h2>
                     <p class="serv-par">Autorizar la utilización del nombre de dominio de manera pública, así como también conocer el funcionamiento de internet y la Reglamentación para el Funcionamiento del Registro de Nombres del Dominio CL, sus Políticas y Procedimientos.</p>
@@ -125,50 +128,143 @@
             </div>
         </div>
     </section>
-    
-    
     <!--team-->
     <section id="nic" class="content">
-        <div class="container-80">
-            <h1 class="content-title">Our Wonderful Team</h1>
-            <hr class="content-divider">
-            <div class="cont-cols-4">
-                <!--member-->
-                <figure class="member"> <img src="img/team-member.jpg" alt="Team member 1">
-                    <figcaption>
-                        <h3 class="member-title">George Sjotdstet</h3>
-                        <h4 class="member-subtitle">CEO / Founder</h4>
-                        <p class="member-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reiciendis.</p>
-                        <p class="member-icons"> <span class="fa fa-twitter member-icon"></span> <span class="fa fa-pinterest member-icon"></span> <span class="fa fa-facebook member-icon"></span> <span class="fa fa-google-plus member-icon"></span> <span class="fa fa-linkedin member-icon"></span> </p>
-                    </figcaption>
-                </figure>
-                <!--member-->
-                <figure class="member"> <img src="img/team-member.jpg" alt="Team member 2">
-                    <figcaption>
-                        <h3 class="member-title">Don Aese</h3>
-                        <h4 class="member-subtitle">CEO / Founder</h4>
-                        <p class="member-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reiciendis.</p>
-                        <p class="member-icons"> <span class="fa fa-twitter member-icon"></span> <span class="fa fa-pinterest member-icon"></span> <span class="fa fa-facebook member-icon"></span> <span class="fa fa-google-plus member-icon"></span> <span class="fa fa-linkedin member-icon"></span> </p>
-                    </figcaption>
-                </figure>
-                <!--member-->
-                <figure class="member"> <img src="img/team-member.jpg" alt="Team member 3">
-                    <figcaption>
-                        <h3 class="member-title">Kenneth Eriksson</h3>
-                        <h4 class="member-subtitle">CEO / Founder</h4>
-                        <p class="member-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reiciendis.</p>
-                        <p class="member-icons"> <span class="fa fa-twitter member-icon"></span> <span class="fa fa-pinterest member-icon"></span> <span class="fa fa-facebook member-icon"></span> <span class="fa fa-google-plus member-icon"></span> <span class="fa fa-linkedin member-icon"></span> </p>
-                    </figcaption>
-                </figure>
-                <!--member-->
-                <figure class="member"> <img src="img/team-member.jpg" alt="Team member 1">
-                    <figcaption>
-                        <h3 class="member-title">Nelson Bighetti</h3>
-                        <h4 class="member-subtitle">CEO / Founder</h4>
-                        <p class="member-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reiciendis.</p>
-                        <p class="member-icons"> <span class="fa fa-twitter member-icon"></span> <span class="fa fa-pinterest member-icon"></span> <span class="fa fa-facebook member-icon"></span> <span class="fa fa-google-plus member-icon"></span> <span class="fa fa-linkedin member-icon"></span> </p>
-                    </figcaption>
-                </figure>
+        <div class="container-fluid">
+            <h1 class="content-title">Gestión a través de NIC.cl</h1>
+            <!--img-content-->
+            <figure class="col-lg-8 col-lg-offset-2"> <img src="img/employee.png" alt="Empleado de NIC" class="content-img img-responsive text-center"> </figure>
+            <!--normativa nic-->
+            <div class="reglas-cont col-lg-10 col-lg-offset-1">
+                <div class="reglas nic-cont col-lg-12">
+                    <h2 class="serv-title">I)Contactos de un nombre de dominio</h2>
+                    <p class="serv-par">Existirán cuatro tipos de contactos para cada nombre de dominio: titular, administrativo, técnico y comercial. Los contactos son los responsables de la gestión de un dominio .CL.</p>
+                </div>
+                <!--regla2-->
+                <div class="reglas nic-cont col-lg-12">
+                    <h2 class="serv-title">II) La cuenta del usuario.</h2>
+                    <p class="serv-par">Para inscribir y gestionar un nombre de dominio es necesario disponer de una cuenta de usuario.</p>
+                    <p class="serv-par">Al inscribir un nombre de dominio el usuario que efectúa dicho registro desempeñará inicialmente todos los roles de contacto del dominio, lo cual podrá ser modificado en el acto o con posterioridad. </p>
+                </div>
+                <!--regla3-->
+                <div class="reglas nic-cont col-lg-12 col-md-12">
+                    <h2 class="serv-title">III) Funciones de los contactos de un nombre de dominio.</h2>
+                    <p class="serv-par col-lg-12">Los contactos tendrán la las siguientes atribuciones:</p>
+                    <div class="table-cont col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+                        <table class="table table-condensed table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <td>Atribuciones</td>
+                                    <td>Titular</td>
+                                    <td>Administrativo</td>
+                                    <td>Técnico</td>
+                                    <td>General</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cambiar titular del dominio</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Eliminar dominio inscrito</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Bloquear dominio inscrito</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Desbloquear dominio inscrito</td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Cambiar contacto administrativo</td>
+                                    <td><span class="fa fa-thumbs-up text-center"></span></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Cambiar contacto técnico o comercial</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Modificar información técnica</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Modificar Datos de facturación</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Descargar comprobante</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Representar al titular en resolución de controversias</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Renovar el dominio</td>
+                                    <td></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                    <td><span class="fa fa-thumbs-up"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--regla4-->
+                <div class="reglas nic-cont col-lg-12">
+                    <h2 class="serv-title">IV) Modificación, cambio de titular, cambio de contacto administrativo, bloqueo y eliminación de un nombre de dominio.</h2>
+                    <p class="serv-par">Es toda actualización efectuada por alguno de los contactos de acuerdo a sus respectivas atribuciones. La modificación tendrá lugar siempre que dicho proceso no esté impedido por alguna causa de bloqueo del nombre de dominio.</p>
+                </div>
+                <!--regla5-->
+                <div class="reglas nic-cont col-lg-12">
+                    <h2 class="serv-title">V) La renovación de un nombre de dominio .CL:</h2>
+                    <p class="serv-par">Se puede renovar en cualquier momento anterior a su fecha de expiración. Si un dominio cumple su fecha de expiración sin haber sido renovado, será desactivado y puesto en estado de restauración.</p>
+                </div>
+                <!--regla6-->
+                <div class="reglas nic-cont col-lg-12">
+                    <h2 class="serv-title">VI) La renovación de un nombre de dominio .CL:</h2>
+                    <p class="serv-par">Cuando un dominio haya sido eliminado, sea voluntariamente o por no renovación, durante los 30 días siguientes se podrá pagar la tarifa de restauración para evitar la eliminación definitiva.
+</p>
+                </div>
+                <!--regla7-->
+                <div class="reglas nic-cont col-lg-12">
+                    <h2 class="serv-title">VII) La renovación de un nombre de dominio .CL:</h2>
+                    <p class="serv-par">Para vincular un dominio previamente existente a una cuenta de usuario en el nuevo sistema se utiliza el Procedimiento de Traslado.
+Cuando se traslada un dominio el usuario que efectúa dicho procedimiento, desempeñará inicialmente todos los roles de contacto del dominio, lo cual podrá ser modificado con posterioridad.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -225,11 +321,12 @@
     </section>
     <!--footer-->
     <footer>
-        <div class="container-80">
-            <figure class="footer-logo">
-                <a href="#main"><img src="img/logo.png" alt="Logo projex"></a>
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+            <figure class="footer-logo col-lg-4 col-md-4 col-sm-5 col-xs-3">
+                <a href="#main"><img class="hidden-xs" src="img/icon-dd-full-white.png" alt="Logo projex"></a>
+                <a href="#main"><img class="visible-xs-inline" src="img/icon-dd-white.png" alt="Logo projex"></a>
             </figure>
-            <p class="footer-copy"> &copy;Copyright <a href="https://github.com/nxaxg" target="_blank"><span class="fa fa-envira"></span>Cielosordo</a> MMXVI </p>
+            <p class="footer-copy col-lg-8 col-md-8 col-sm-7 col-xs-9"> &copy;Copyright <a href="https://github.com/nxaxg" target="_blank"><span class="fa fa-envira"></span>Cielosordo</a> MMXVI </p>
         </div>
     </footer>
 </body>

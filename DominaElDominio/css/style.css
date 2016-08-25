@@ -50,7 +50,7 @@ p{
 /*header*/
 
 header{
-    background-color: #083A5B;
+    background-color: rgba(8, 58, 91, 0.1);
     width: 100%;
     position: fixed;
     height: 80px;
@@ -63,6 +63,7 @@ header.sticky{
     height: 60px;
     padding: 0;
     transition: 0.6s;
+    background-color: #083A5B;
 }
 
 header .logo{
@@ -72,11 +73,11 @@ header .logo{
 }
 
 header .logo img{
-    width: 60%;
+    width: 45%;
 }
 
 header.sticky .logo img{
-    width: 15%;
+    width: 12%;
     padding: 5px 0;
 }
 
@@ -193,8 +194,12 @@ nav .nav-menu .nav-sel{
     transition: 0.2s;
 }
 
+.btn-act a{
+    color: white;
+}
+
 .btn-act:hover{
-    background-color: white;
+    background-color: transparent;
     color: #ff5959;
 }
 
@@ -209,7 +214,7 @@ nav .nav-menu .nav-sel{
 }
 
 #main .main-img img{
-    width: 80%;
+    width: 60%;
 }
 
 /*content*/
@@ -232,10 +237,33 @@ nav .nav-menu .nav-sel{
     padding: 0 0 10px 0;
 }
 
-.content-divider{
-    width: 30%;
+/*TABLA*/
+/*cambiar color*/
+
+.table-cont{
+    padding: 20px 0;
+}
+
+.table-cont table{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.table-cont thead{
+    font-weight: bolder;
+}
+
+.table-cont tbody tr:hover{
+    color: black;
+}
+
+.content-img{
     margin: 0 auto;
-    border: 1px solid rgba(111, 111, 111, 0.6);
+    width: 40%;
+}
+
+.reglas-cont{
+    position: relative;
+    padding: 30px 0 0 0;
 }
 
 .dom-container p{
@@ -608,7 +636,7 @@ nav .nav-menu .nav-sel{
 /*footer*/
 
 footer{
-    background-color: #ff5959;
+    background-color: #083A5B;
     position: relative;
     bottom: 0;
     padding: 20px 0;
@@ -616,13 +644,15 @@ footer{
 }
 
 footer .footer-logo{
-    width: 30%;
     float: left;
     overflow: hidden;
 }
 
+footer .footer-logo img{
+    width: 50%;
+}
+
 footer .footer-copy{
-    width: 70%;
     float: left;
     padding: 20px 0;
     text-align: right;
