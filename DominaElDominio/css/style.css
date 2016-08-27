@@ -50,7 +50,7 @@ p{
 /*header*/
 
 header{
-    background-color: rgba(8, 58, 91, 0.1);
+    background-color: transparent;
     width: 100%;
     position: fixed;
     height: 80px;
@@ -117,6 +117,7 @@ nav .nav-menu .nav-sel{
     z-index: 1;
     height: 700px;
     overflow: hidden;
+    background-color: black;
 }
 
 #main::before{
@@ -129,6 +130,7 @@ nav .nav-menu .nav-sel{
     background: url('../img/back-web-3.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     -webkit-filter: /*blur(5px)*/ contrast(0.6);
     filter: /*blur(5px)*/ contrast(0.6);
     z-index: 2;
@@ -259,6 +261,14 @@ nav .nav-menu .nav-sel{
 .content-img{
     margin: 0 auto;
     width: 40%;
+}
+
+#hosting .content-img{
+    width: 30%;
+}
+
+.host-list li{
+    list-style-type: circle;
 }
 
 .reglas-cont{
