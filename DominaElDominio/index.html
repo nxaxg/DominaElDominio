@@ -18,319 +18,370 @@
     <script src="js/jquery-1.11.3.js"></script>
     <!--script-->
     <script src="js/scripts.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon-dd-blue.png"> </head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon-dd-blue.png">
+</head>
 
 <body>
-    <header class="container-fluid">
-        <div class="row">
-            <div class="header col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
-                <figure class="logo col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <a href="index.html">
-                        <!-- logo marca --><img src="img/icon-dd-full-white.png" alt="Logo projex"> </a>
-                </figure>
-                <nav class="col-lg-9 col-md-9 col-sm-9 hidden-xs">
-                    <!-- menu marca-->
-                    <ul class="nav-menu">
-                        <li><a class="nav-op nav-sel" href="#main" title="Arriba">Home</a></li>
-                        <li><a class="nav-op" href="#dominio" title="Conoce las bases del Dominio en internet">Qué es un Dominio</a></li>
-                        <li><a class="nav-op" href="#normativa" title="Como operan los Dominios en Chile">Normativa Nacional</a></li>
-                        <li><a class="nav-op" href="#nic" title="Conoce NIC Chile">NIC Chile</a></li>
-                        <li><a class="nav-op" href="#hosting" title="Aprende qué es un Hosting">Hosting</a></li>
-                    </ul>
-                </nav>
+   <!--header-->
+    <header>
+        <div class="container-fluid">
+            <div class="header col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <div class="row">
+                    <figure class="logo col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <a href="#main" title="Domina el Dominio">
+                            <img src="img/icon-dd-full-white.png" alt="Logo Domina el Dominio">
+                        </a>
+                    </figure>
+                    <nav class="col-lg-9 col-md-9 hidden-sm hidden-xs">
+                        <!-- menu marca-->
+                        <ul class="nav-menu">
+                            <li><a class="nav-op nav-sel" href="#main" title="Arriba">Home</a></li>
+                            <li><a class="nav-op" href="#dominio" title="Conoce las bases del Dominio en internet">Qué es un Dominio</a></li>
+                            <li><a class="nav-op" href="#normativa" title="Como operan los Dominios en Chile">Normativa Nacional</a></li>
+                            <li><a class="nav-op" href="#nic" title="Conoce NIC Chile">NIC Chile</a></li>
+                            <li><a class="nav-op" href="#hosting" title="Aprende qué es un Hosting">Hosting</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
+    
     <!--main-->
-    <div class="container-fluid cont-reset">
-        <section id="main" class="col-lg-12">
-            <div class="col-lg-10 col-lg-offset-1">
-                <div class="cont-cols-2 col-lg-12">
-                    <div class="col-2 col-lg-6 col-md-6">
-                        <h1 class="main-title">Conoce como gestionar tu dominio en simples pasos</h1>
-                        <p class="main-par">Aprende las bases para gestionar tu nombre de Dominio en internet para futuros proyectos web.</p>
-                        <div class="main-btns col-lg-12 text-center">
-                            <button class="btn btn-act">
-                                <a href="#dominio" title="Comienza tu viaje">Comenzar</a>
-                             </button>
+    <section id="main">
+        <div class="container-fluid">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-sm-0 col-xs-12 col-xs-offset-0">
+                <div class="row">
+                    <div class="cont-cols-2 col-lg-12">
+                        <div class="col-2 col-lg-6 col-md-6">
+                            <h1 class="main-title col-lg-12 col-xs-12">Conoce como gestionar tu dominio en simples pasos</h1>
+                            <p class="main-par col-lg-12">Aprende las bases para gestionar tu nombre de Dominio en internet para futuros proyectos web.</p>
+                            <div class="main-btns col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                <button class="btn btn-act col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
+                                    <a href="#dominio" class="col-lg-12" title="Comienza tu viaje">Comenzar</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-2 col-lg-6 col-md-6 hidden-sm hidden-xs">
+                            <figure class="main-img col-lg-12 col-md-12">
+                                <img src="img/mac-icon-1.png" alt="Mac icon">
+                            </figure>
                         </div>
                     </div>
-                    <div class="col-2 col-lg-6 col-md-6">
-                        <figure class="main-img"> <img src="img/mac-icon-1.png" alt="Mac vector icon"> </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!--dominios-->
+    <section id="dominio" class="content">
+        <div class="container-fluid">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+                <!--que es un dominio-->
+                <div class="sub-container">
+                    <div class="row">
+                        <h1 class="content-title">Qué es un Dominio?</h1>
+                        <figure class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <img src="img/browser.png" alt="Browser y ojo imagen" class="content-img img-responsive text-center">
+                        </figure>
+                        <p class="col-lg-12 col-xs-12 text-center"> Un dominio es el nombre con el que se conoce a un sitio web.
+                        <br>Existen dominios para todo tipo de empresa o servicio, y este es quien definirá el título bajo el cual será encontrado en Internet. </p>
+                    </div>
+                </div>
+                <!--tipos de dominio-->
+                <div class="funbox-cont col-lg-12 col-md-12">
+                    <div class="row">
+                        <h2 class="content-subtitle">Tipos de dominios:</h2>
+                        <!--col1-->
+                        <div class="funbox col-lg-12 col-xs-12">
+                            <h2 class="funbox-title">Dominios Genéricos (gLTD)</h2>
+                            <p class="funbox-par">Los dominios genéricos o gTLD (geopraphical Top Level Domain), son dominios que no se ajustan al ambiente de un país específico. Los conocemos por ser los más comunes y tienen extensiones .com, org, .net, etcétera. </p>
+                            <p class="funbox-par">Los dominios con extensión .com son aquellas que se utilizan para empresas y organizaciones comerciales de todo el mundo. Aquellos con extensión .org lo utilizan organizaciones e instituciones sin ánimo de lucro y Organizaciones No Gubernamentales (ONG). Mientras que las empresas e instituciones relacionadas con servicios de Internet se definen por tener una extensión en .net. </p>
+                        </div>
+                        <!--col2-->
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">Dominios Territoriales (ccLTD)</h2>
+                            <p class="funbox-par">Los dominios territoriales o ccTLD (country code Top Level Domain), son quienes se definen por adquirir un sitio con extensión única perteneciente a cada región. Por ejemplo, en México los dominios ccTLD terminan con la extensión .mx, en España este tipo de dominios termina en .es, o en Francia, la extensión es .fr, y en Chile con la extensión .cl.</p>
+                        </div>
+                        <!--col3-->
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">Dominios de tercer nivel</h2>
+                            <p class="funbox-par">Los dominios de tercer nivel son aquellos que tienen la misma finalidad que los dominios gTLD sólo que éstos adquieren también la identidad territorial de las ccTLD. Los dominios gubernamentales o educativos son característicos de este tipo. Sencillamente deben tener una terminación .com.mx, .edu.mx, etcétera.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
-    <!--dominios-->
-    <section id="dominio" class="content container-fluid">
-        <div class="col-lg-10 col-lg-offset-1">
-            <!--que es un dominio-->
-            <div class="dom-container row">
-                <h1 class="content-title col-lg-12">Qué es un Dominio?</h1>
-                <figure class="col-lg-8 col-lg-offset-2"> <img src="img/browser.png" alt="Browser y ojo imagen" class="content-img img-responsive text-center"> </figure>
-                <p class="col-lg-12 text-center"> Un dominio es el nombre con el que se conoce a un sitio web.
-                    <br>Existen dominios para todo tipo de empresa o servicio, y este es quien definirá el título bajo el cual será encontrado en Internet. </p>
-            </div>
-            <!--tipos de dominio-->
-            <div class="cont-cols-3 row">
-                <h2 class="content-subtitle col-lg-12">Tipos de dominios:</h2>
-                <!--col1-->
-                <div class="col-3 col-lg-12">
-                    <h2 class="serv-title">Dominios Genéricos (gLTD)</h2>
-                    <p class="serv-par">Los dominios genéricos o gTLD (geopraphical Top Level Domain), son dominios que no se ajustan al ambiente de un país específico. Los conocemos por ser los más comunes y tienen extensiones .com, org, .net, etcétera. </p>
-                    <p class="serv-par">Los dominios con extensión .com son aquellas que se utilizan para empresas y organizaciones comerciales de todo el mundo. Aquellos con extensión .org lo utilizan organizaciones e instituciones sin ánimo de lucro y Organizaciones No Gubernamentales (ONG). Mientras que las empresas e instituciones relacionadas con servicios de Internet se definen por tener una extensión en .net. </p>
-                </div>
-                <!--col2-->
-                <div class="col-3 col-lg-12">
-                    <h2 class="serv-title">Dominios Territoriales (ccLTD)</h2>
-                    <p class="serv-par">Los dominios territoriales o ccTLD (country code Top Level Domain), son quienes se definen por adquirir un sitio con extensión única perteneciente a cada región. Por ejemplo, en México los dominios ccTLD terminan con la extensión .mx, en España este tipo de dominios termina en .es, o en Francia, la extensión es .fr, y en Chile con la extensión .cl.</p>
-                </div>
-                <!--col3-->
-                <div class="col-3 col-lg-12">
-                    <h2 class="serv-title">Dominios de tercer nivel</h2>
-                    <p class="serv-par">Los dominios de tercer nivel son aquellos que tienen la misma finalidad que los dominios gTLD sólo que éstos adquieren también la identidad territorial de las ccTLD. Los dominios gubernamentales o educativos son característicos de este tipo. Sencillamente deben tener una terminación .com.mx, .edu.mx, etcétera.</p>
-                </div>
-            </div>
         </div>
     </section>
+    
+    
     <!--normativa-->
-    <section id="normativa" class="content container-fluid">
-        <div class="col-lg-10 col-lg-offset-1">
-            <h1 class="content-title">Normativa Nacional</h1>
-            <!--img-content-->
-            <figure class="col-lg-8 col-lg-offset-2"> <img src="img/paco.png" alt="Pacos culiaos" class="content-img img-responsive text-center"> </figure>
-            <!--regla1-->
-            <div class="reglas-cont col-lg-12">
-                <div class="reglas col-lg-12">
-                    <h2 class="serv-title">I) Reglas para el registro de un nombre de dominio .CL</h2>
-                    <p class="serv-par">Autorizar la utilización del nombre de dominio de manera pública, así como también conocer el funcionamiento de internet y la Reglamentación para el Funcionamiento del Registro de Nombres del Dominio CL, sus Políticas y Procedimientos.</p>
+    <section id="normativa" class="content">
+        <div class="container-fluid">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+                <div class="sub-container">
+                    <div class="row">
+                        <h1 class="content-title">Normativa Nacional</h1>
+                        <!--img-content-->
+                        <figure class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <img src="img/paco.png" alt="Pacos culiaos" class="content-img img-responsive text-center">
+                        </figure>
+                    </div>
                 </div>
-                <!--regla2-->
-                <div class="reglas col-lg-12">
-                    <h2 class="serv-title">II) Inscripción de un nombre de dominio .CL.</h2>
-                    <p class="serv-par">NIC Chile proveerá distintos medios para el pago de la tarifa por la inscripción de un registro, para aquellos clientes que inscriban nombres de dominio directamente ante él. La imposibilidad de utilizar alguno de dichos mecanismos no será excusa para que el solicitante no cumpla con su obligación de pagar, pudiendo optar por las otras alternativas de medios de pago disponibles.</p>
-                </div>
-                <!--regla3-->
-                <div class="reglas col-lg-12">
-                    <h2 class="serv-title">III) Del cambio de titular de un nombre de dominio .CL.</h2>
-                    <p class="serv-par">NEl cambio de titular de un nombre de dominio tendrá lugar en caso de cesión, sucesión por causa de muerte o por resolución de autoridad jurisdiccional, de acuerdo a las disposiciones del procedimiento respectivo.
-                        <br>Sin perjuicio de lo señalado, un nombre de dominio no podrá cederse si dicha cesión ha sido suspendida por resolución de un tribunal competente o por otra causa.</p>
-                </div>
-                <!--regla4-->
-                <div class="reglas col-lg-12">
-                    <h2 class="serv-title">IV) De la eliminación de un nombre de dominio.</h2>
-                    <p class="serv-par">El nombre de dominio podrá ser eliminado voluntariamente, o por decisión de autoridad jurisdiccional, o por no haberse renovado el dominio. Asimismo, será causal de eliminación de un nombre de dominio que los datos de identificación obligatorios del titular del dominio sean incompletos o inexactos.</p>
-                </div>
-                <!--regla5-->
-                <div class="reglas col-lg-12">
-                    <h2 class="serv-title">V) De la revocación de un nombre de dominio.</h2>
-                    <p class="serv-par">Toda persona natural o jurídica que estime afectados sus derechos por la inscripción de un nombre de dominio podrá pedir la revocación de esa inscripción, la cual se sujetará a la Política de Resolución de Controversias por Nombres de Dominio .CL.</p>
+                <div class="funbox-cont col-lg-12">
+                    <div class="row">
+                        <!--regla1-->
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">I) Reglas para el registro de un nombre de dominio .CL</h2>
+                            <p class="funbox-par">Autorizar la utilización del nombre de dominio de manera pública, así como también conocer el funcionamiento de internet y la Reglamentación para el Funcionamiento del Registro de Nombres del Dominio CL, sus Políticas y Procedimientos.</p>
+                        </div>
+                        <!--regla2-->
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">II) Inscripción de un nombre de dominio .CL.</h2>
+                            <p class="funbox-par">NIC Chile proveerá distintos medios para el pago de la tarifa por la inscripción de un registro, para aquellos clientes que inscriban nombres de dominio directamente ante él. La imposibilidad de utilizar alguno de dichos mecanismos no será excusa para que el solicitante no cumpla con su obligación de pagar, pudiendo optar por las otras alternativas de medios de pago disponibles.</p>
+                        </div>
+                         <!--regla3-->
+                         <div class="funbox col-lg-12">
+                             <h2 class="funbox-title">III) Del cambio de titular de un nombre de dominio .CL.</h2>
+                            <p class="funbox-par">NEl cambio de titular de un nombre de dominio tendrá lugar en caso de cesión, sucesión por causa de muerte o por resolución de autoridad jurisdiccional, de acuerdo a las disposiciones del procedimiento respectivo.
+                                <br>Sin perjuicio de lo señalado, un nombre de dominio no podrá cederse si dicha cesión ha sido suspendida por resolución de un tribunal competente o por otra causa.</p>
+                        </div>
+                        <!--regla4-->
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">IV) De la eliminación de un nombre de dominio.</h2>
+                            <p class="funbox-par">El nombre de dominio podrá ser eliminado voluntariamente, o por decisión de autoridad jurisdiccional, o por no haberse renovado el dominio. Asimismo, será causal de eliminación de un nombre de dominio que los datos de identificación obligatorios del titular del dominio sean incompletos o inexactos.</p>
+                        </div>
+                        <!--regla5-->
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">V) De la revocación de un nombre de dominio.</h2>
+                            <p class="funbox-par">Toda persona natural o jurídica que estime afectados sus derechos por la inscripción de un nombre de dominio podrá pedir la revocación de esa inscripción, la cual se sujetará a la Política de Resolución de Controversias por Nombres de Dominio .CL.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--team-->
+    
+    
+    <!--NIC-->
     <section id="nic" class="content">
         <div class="container-fluid">
-            <h1 class="content-title">Gestión a través de NIC.cl</h1>
-            <!--img-content-->
-            <figure class="col-lg-8 col-lg-offset-2">
-                <img src="img/employee.png" alt="Empleado de NIC" class="content-img img-responsive text-center">
-            </figure>
-            <!--normativa nic-->
-            <div class="reglas-cont col-lg-10 col-lg-offset-1">
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">I)Contactos de un nombre de dominio</h2>
-                    <p class="serv-par">Existirán cuatro tipos de contactos para cada nombre de dominio: titular, administrativo, técnico y comercial. Los contactos son los responsables de la gestión de un dominio .CL.</p>
-                </div>
-                <!--regla2-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">II) La cuenta del usuario.</h2>
-                    <p class="serv-par">Para inscribir y gestionar un nombre de dominio es necesario disponer de una cuenta de usuario.</p>
-                    <p class="serv-par">Al inscribir un nombre de dominio el usuario que efectúa dicho registro desempeñará inicialmente todos los roles de contacto del dominio, lo cual podrá ser modificado en el acto o con posterioridad. </p>
-                </div>
-                <!--regla3-->
-                <div class="reglas nic-cont col-lg-12 col-md-12">
-                    <h2 class="serv-title">III) Funciones de los contactos de un nombre de dominio.</h2>
-                    <p class="serv-par col-lg-12">Los contactos tendrán la las siguientes atribuciones:</p>
-                    <div class="table-cont col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
-                        <table class="table table-condensed table-hover text-center">
-                            <thead>
-                                <tr>
-                                    <td>Atribuciones</td>
-                                    <td>Titular</td>
-                                    <td>Administrativo</td>
-                                    <td>Técnico</td>
-                                    <td>General</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Cambiar titular del dominio</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Eliminar dominio inscrito</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Bloquear dominio inscrito</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Desbloquear dominio inscrito</td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Cambiar contacto administrativo</td>
-                                    <td><span class="fa fa-thumbs-up text-center"></span></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Cambiar contacto técnico o comercial</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Modificar información técnica</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Modificar Datos de facturación</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                </tr>
-                                <tr>
-                                    <td>Descargar comprobante</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                </tr>
-                                <tr>
-                                    <td>Representar al titular en resolución de controversias</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Renovar el dominio</td>
-                                    <td></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                    <td><span class="fa fa-thumbs-up"></span></td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+                <div class="sub-container">
+                    <div class="row">
+                        <h1 class="content-title">Gestión a través de NIC.cl</h1>
+                        <!--img-content-->
+                        <figure class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <img src="img/employee.png" alt="Empleado de NIC" class="content-img img-responsive text-center">
+                        </figure>
                     </div>
                 </div>
-                <!--regla4-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">IV) Modificación, cambio de titular, cambio de contacto administrativo, bloqueo y eliminación de un nombre de dominio.</h2>
-                    <p class="serv-par">Es toda actualización efectuada por alguno de los contactos de acuerdo a sus respectivas atribuciones. La modificación tendrá lugar siempre que dicho proceso no esté impedido por alguna causa de bloqueo del nombre de dominio.</p>
-                </div>
-                <!--regla5-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">V) La renovación de un nombre de dominio .CL:</h2>
-                    <p class="serv-par">Se puede renovar en cualquier momento anterior a su fecha de expiración. Si un dominio cumple su fecha de expiración sin haber sido renovado, será desactivado y puesto en estado de restauración.</p>
-                </div>
-                <!--regla6-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">VI) La renovación de un nombre de dominio .CL:</h2>
-                    <p class="serv-par">Cuando un dominio haya sido eliminado, sea voluntariamente o por no renovación, durante los 30 días siguientes se podrá pagar la tarifa de restauración para evitar la eliminación definitiva.
-</p>
-                </div>
-                <!--regla7-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">VII) La renovación de un nombre de dominio .CL:</h2>
-                    <p class="serv-par">Para vincular un dominio previamente existente a una cuenta de usuario en el nuevo sistema se utiliza el Procedimiento de Traslado.
-Cuando se traslada un dominio el usuario que efectúa dicho procedimiento, desempeñará inicialmente todos los roles de contacto del dominio, lo cual podrá ser modificado con posterioridad.</p>
+                <!--normativa nic-->
+                <div class="funbox-cont col-lg-12">
+                    <div class="row">
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">I)Contactos de un nombre de dominio</h2>
+                            <p class="funbox-par">Existirán cuatro tipos de contactos para cada nombre de dominio: titular, administrativo, técnico y comercial. Los contactos son los responsables de la gestión de un dominio .CL.</p>
+                        </div>
+                        <!--regla2-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">II) La cuenta del usuario.</h2>
+                            <p class="funbox-par">Para inscribir y gestionar un nombre de dominio es necesario disponer de una cuenta de usuario.</p>
+                            <p class="funbox-par">Al inscribir un nombre de dominio el usuario que efectúa dicho registro desempeñará inicialmente todos los roles de contacto del dominio, lo cual podrá ser modificado en el acto o con posterioridad. </p>
+                        </div>
+                        <!--regla3-->
+                        <div class="funbox nic-cont col-lg-12 col-md-12">
+                            <h2 class="funbox-title">III) Funciones de los contactos de un nombre de dominio.</h2>
+                            <p class="funbox-par col-lg-12">Los contactos tendrán la las siguientes atribuciones:</p>
+                            <div class="table-cont col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+                                <table class="table table-condensed table-hover text-center">
+                                    <thead>
+                                        <tr>
+                                            <td>Atribuciones</td>
+                                            <td>Titular</td>
+                                            <td>Administrativo</td>
+                                            <td>Técnico</td>
+                                            <td>General</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Cambiar titular del dominio</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Eliminar dominio inscrito</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bloquear dominio inscrito</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Desbloquear dominio inscrito</td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cambiar contacto administrativo</td>
+                                            <td><span class="fa fa-thumbs-up text-center"></span></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cambiar contacto técnico o comercial</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Modificar información técnica</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Modificar Datos de facturación</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Descargar comprobante</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Representar al titular en resolución de controversias</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Renovar el dominio</td>
+                                            <td></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                            <td><span class="fa fa-thumbs-up"></span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!--regla4-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">IV) Modificación, cambio de titular, cambio de contacto administrativo, bloqueo y eliminación de un nombre de dominio.</h2>
+                            <p class="funbox-par">Es toda actualización efectuada por alguno de los contactos de acuerdo a sus respectivas atribuciones. La modificación tendrá lugar siempre que dicho proceso no esté impedido por alguna causa de bloqueo del nombre de dominio.</p>
+                        </div>
+                        <!--regla5-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">V) La renovación de un nombre de dominio .CL:</h2>
+                            <p class="funbox-par">Se puede renovar en cualquier momento anterior a su fecha de expiración. Si un dominio cumple su fecha de expiración sin haber sido renovado, será desactivado y puesto en estado de restauración.</p>
+                        </div>
+                        <!--regla6-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">VI) La renovación de un nombre de dominio .CL:</h2>
+                            <p class="funbox-par">Cuando un dominio haya sido eliminado, sea voluntariamente o por no renovación, durante los 30 días siguientes se podrá pagar la tarifa de restauración para evitar la eliminación definitiva. </p>
+                        </div>
+                        <!--regla7-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">VII) La renovación de un nombre de dominio .CL:</h2>
+                            <p class="funbox-par">Para vincular un dominio previamente existente a una cuenta de usuario en el nuevo sistema se utiliza el Procedimiento de Traslado. Cuando se traslada un dominio el usuario que efectúa dicho procedimiento, desempeñará inicialmente todos los roles de contacto del dominio, lo cual podrá ser modificado con posterioridad.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--blog-->
+    
+    
+    <!--Hosting-->
     <section id="hosting" class="content">
         <div class="container-fluid">
-            <h1 class="content-title">Hosting</h1>
-            <!--img-content-->
-            <figure class="col-lg-8 col-lg-offset-2">
-                <img src="img/server.png" alt="Empleado de NIC" class="content-img img-responsive text-center">
-            </figure>
-            <div class="reglas-cont col-lg-10 col-lg-offset-1">
-               <!--1-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">Alojamiento Gratuito:</h2>
-                    <p class="serv-par">Un alojamiento web gratuito (también conocido como hosting gratuito), es un servicio que permite a los usuarios publicar sitios web de manera gratuita.</p>
-                    <p class="serv-par"><strong>Tipos de Hosting gratuitos:</strong></p>
-                    <p class="serv-par">
-                        <ul class="host-list">
-                            <li class="col-lg-10 col-lg-offset-1">Hosting gratis a cambio de posts.</li>
-                            <li class="col-lg-10 col-lg-offset-1">Hosting gratis a cambio de publicidad.</li>
-                            <li class="col-lg-10 col-lg-offset-1">Hosting gratis sin nada a cambio.</li>
-                        </ul>
-                    </p>
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+                <div class="sub-container">
+                    <div class="row">
+                        <h1 class="content-title">Hosting</h1>
+                        <!--img-content-->
+                        <figure class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                            <img src="img/server.png" alt="Empleado de NIC" class="content-img img-responsive text-center">
+                        </figure>
+                    </div>
                 </div>
-                <!--2-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">Alojamiento Reseller:</h2>
-                    <p class="serv-par">El alojamiento Reseller o Revendedor, es un tipo de alojamiento web mediante el cual un plan de alojamiento dentro de un servidor permite a una cuenta revender alojamiento dentro del mismo plan, permitiendo así crear subdominios y agregar dominios externos, creando subplanes o planes de alojamiento dentro de la cuenta de alojamiento de reventa.</p>
-                </div>
-                <!--3-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">Servidores Virtuales (VPS):</h2>
-                    <p class="serv-par">Un servidor VPS es un tipo de hosting compartido con características similares a las de un hosting dedicado. Esto hace que un servidor VPS sea mucho más potente y flexible que un hosting compartido, pero sin tener que pagar el alto precio de un servidor dedicado.</p>
-                    <p class="serv-par">La gran ventaja de un servidor VPS con respecto a un servidor compartido es que cada instalación se realiza de manera independiente. En un hosting compartido todos los usuarios comparten los recursos del servidor, y de existir algún problema todos los usuarios pueden verse afectado en cuanto el rendimiento. En un servidor VPS esto no ocurre, ya que los recursos asignados a un Servidor VPS los utiliza sólo este Sevidor, independiente del resto de instalaciones que existan en el mismo Servidor.</p>
-                </div>
-                <!--4-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">Servidores Dedicados:</h2>
-                    <p class="serv-par">Un servidor dedicado es un ordenador comprado o arrendado que se utiliza para prestar servicios dedicados, generalmente relacionados con el alojamiento web y otros servicios en red. A diferencia de lo que ocurre con el alojamiento compartido, en donde los recursos de la máquina son compartidos entre un número indeterminado de clientes, en el caso de los servidores dedicados generalmente es un solo cliente el que dispone de todos los recursos de la máquina para los fines por los cuales haya contratado el servicio.</p>
-                </div>
-                <!--5-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">Housing:</h2>
-                    <p class="serv-par">El housing, también llamado Co-location, es un tipo de hospedaje en el que el proveedor ofrece al cliente el alojamiento de los equipos en espacios especialmente acondicionados y preparados para ello, asegurando las condiciones de clima y la continua disponibilidad de la alimentación eléctrica y conexión de red.</p>
-                </div>
-                <!--6-->
-                <div class="reglas nic-cont col-lg-12">
-                    <h2 class="serv-title">Cloud Hosting:</h2>
-                    <p class="serv-par">Los servicios de hosting cloud  proporcionan una plataforma de alojamiento de webs en servidores virtuales que toman sus recursos informáticos de amplias redes subyacentes formadas por servidores web físicos. Su modelo es similar al de suministros públicos tradicionales como la luz o el gas, en el sentido de que está disponible como un servicio, más que como un producto. A grandes rasgos, la idea consiste en que el cliente pueda conectarse al servicio tanto como necesite, en función de la demanda de su web, y pagar sólo por lo que realmente utilice.</p>
+                <div class="funbox-cont col-lg-12">
+                    <div class="row">
+                        <!--1-->
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">Alojamiento Gratuito:</h2>
+                            <p class="funbox-par">Un alojamiento web gratuito (también conocido como hosting gratuito), es un servicio que permite a los usuarios publicar sitios web de manera gratuita.</p>
+                            <p class="funbox-par"><strong>Tipos de Hosting gratuitos:</strong></p>
+                            <p class="funbox-par">
+                                <ul class="host-list col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                                    <li>Hosting gratis a cambio de posts.</li>
+                                    <li>Hosting gratis a cambio de publicidad.</li>
+                                    <li>Hosting gratis sin nada a cambio.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <!--2-->
+                        <div class="funbox col-lg-12">
+                            <h2 class="funbox-title">Alojamiento Reseller:</h2>
+                            <p class="funbox-par">El alojamiento Reseller o Revendedor, es un tipo de alojamiento web mediante el cual un plan de alojamiento dentro de un servidor permite a una cuenta revender alojamiento dentro del mismo plan, permitiendo así crear subdominios y agregar dominios externos, creando subplanes o planes de alojamiento dentro de la cuenta de alojamiento de reventa.</p>
+                        </div>
+                        <!--3-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">Servidores Virtuales (VPS):</h2>
+                            <p class="funbox-par">Un servidor VPS es un tipo de hosting compartido con características similares a las de un hosting dedicado. Esto hace que un servidor VPS sea mucho más potente y flexible que un hosting compartido, pero sin tener que pagar el alto precio de un servidor dedicado.</p>
+                            <p class="funbox-par">La gran ventaja de un servidor VPS con respecto a un servidor compartido es que cada instalación se realiza de manera independiente. En un hosting compartido todos los usuarios comparten los recursos del servidor, y de existir algún problema todos los usuarios pueden verse afectado en cuanto el rendimiento. En un servidor VPS esto no ocurre, ya que los recursos asignados a un Servidor VPS los utiliza sólo este Sevidor, independiente del resto de instalaciones que existan en el mismo Servidor.</p>
+                        </div>
+                        <!--4-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">Servidores Dedicados:</h2>
+                            <p class="funbox-par">Un servidor dedicado es un ordenador comprado o arrendado que se utiliza para prestar servicios dedicados, generalmente relacionados con el alojamiento web y otros servicios en red. A diferencia de lo que ocurre con el alojamiento compartido, en donde los recursos de la máquina son compartidos entre un número indeterminado de clientes, en el caso de los servidores dedicados generalmente es un solo cliente el que dispone de todos los recursos de la máquina para los fines por los cuales haya contratado el servicio.</p>
+                        </div>
+                        <!--5-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">Housing:</h2>
+                            <p class="funbox-par">El housing, también llamado Co-location, es un tipo de hospedaje en el que el proveedor ofrece al cliente el alojamiento de los equipos en espacios especialmente acondicionados y preparados para ello, asegurando las condiciones de clima y la continua disponibilidad de la alimentación eléctrica y conexión de red.</p>
+                        </div>
+                        <!--6-->
+                        <div class="funbox nic-cont col-lg-12">
+                            <h2 class="funbox-title">Cloud Hosting:</h2>
+                            <p class="funbox-par">Los servicios de hosting cloud proporcionan una plataforma de alojamiento de webs en servidores virtuales que toman sus recursos informáticos de amplias redes subyacentes formadas por servidores web físicos. Su modelo es similar al de suministros públicos tradicionales como la luz o el gas, en el sentido de que está disponible como un servicio, más que como un producto. A grandes rasgos, la idea consiste en que el cliente pueda conectarse al servicio tanto como necesite, en función de la demanda de su web, y pagar sólo por lo que realmente utilice.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!--footer-->
     <footer>
-        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
-            <figure class="footer-logo col-lg-4 col-md-4 col-sm-5 col-xs-3">
-                <a href="#main"><img class="hidden-xs" src="img/icon-dd-full-white.png" alt="Logo projex"></a>
-                <a href="#main"><img class="visible-xs-inline" src="img/icon-dd-white.png" alt="Logo projex"></a>
-            </figure>
-            <p class="footer-copy col-lg-8 col-md-8 col-sm-7 col-xs-9"> &copy;Copyright <a href="https://github.com/nxaxg" target="_blank"><span class="fa fa-envira"></span>Cielosordo</a> MMXVI </p>
+        <div class="container-fluid">
+            <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+                <figure class="footer-logo col-lg-4 col-md-4 col-sm-5 hidden-xs">
+                    <a href="#main"><img class="hidden-xs" src="img/icon-dd-full-white.png" alt="Logo Domina el Dominio"></a>
+                </figure>
+                <p class="footer-copy col-lg-8 col-md-8 col-sm-7 col-xs-12"> &copy;Copyright <a href="https://github.com/nxaxg" target="_blank"><span class="fa fa-envira"></span>Cielosordo</a> MMXVI </p>
+            </div>
         </div>
     </footer>
 </body>

@@ -119,7 +119,6 @@ function myScroller() {
             var scroll = posActual(); /*posicion actual*/
             function sticky() {
                 $("header").addClass('sticky');
-                $(".logo img").attr("src", "img/icon-dd-white.png");
             }
 
             function selectRemove() {
@@ -128,7 +127,6 @@ function myScroller() {
             if (scroll < tope) {
                 //home
                 $("header").removeClass('sticky');
-                $(".logo img").attr("src", "img/icon-dd-full-white.png");
             }
             else if (scroll > tope && scroll < 1800) {
                 //dominio
