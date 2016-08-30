@@ -92,11 +92,16 @@ nav .nav-menu a{
     transition: 0.2s;
 }
 
-nav .nav-menu li:hover .nav-op,
 nav .nav-menu .nav-sel{
     background-color: white;
     color: #083A5B;
     transition: 0.2s;
+    outline: 0;
+}
+
+nav .nav-menu li:hover .nav-op{
+    outline: 1px solid white;
+    transition: 0.4s;
 }
 
 /*******/
@@ -184,16 +189,47 @@ nav .nav-menu .nav-sel{
     background-color: transparent;
     color: #ff5959;
     transition: 0.4s;
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+    transition: 0.5s;
 }
 
 #main .main-img{
     overflow: hidden;
     padding: 20px 10px;
     text-align: center;
+    -webkit-animation: mymove 2s linear infinite; /* Chrome, Safari, Opera */
+    animation: mymove 2s linear infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    0%   {top: -20px;}
+    25%  {top: 0px;}
+    50%  {top: 20px;}
+    75%  {top: 0px}
+    100% {top: -20px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: -20px;}
+    25%  {top: 0px;}
+    50%  {top: 20px;}
+    75%  {top: 0px}
+    100% {top: -20px;}
 }
 
 #main .main-img img{
     width: 60%;
+}
+
+/*Icon animation*/
+.animate-icon{
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    transition: 1s;
+    transition-delay: 0.8s;
 }
 
 /*content*/
@@ -201,6 +237,7 @@ nav .nav-menu .nav-sel{
 .content{
     padding: 60px 0 40px 0;
     overflow: hidden;
+    color: white;
 }
 
 .content .content-title{
@@ -219,10 +256,11 @@ nav .nav-menu .nav-sel{
 .content-img{
     margin: 0 auto;
     width: 40%;
+    padding: 30px 0 40px 0;
 }
 
 .sub-container p{
-    padding: 20px 0 0 0;
+    padding: 0 0 10px 0;
 }
 
 .funbox{
@@ -230,14 +268,14 @@ nav .nav-menu .nav-sel{
     overflow: hidden;
     cursor: pointer;
     margin-bottom: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
+    transition: 0.5s;
 }
 
 .funbox:hover{
-    background-color: black;
-    color: white;
     transition: 0.5s;
     padding: 20px;
+    color: white;
 }
 
 .table-cont{
@@ -268,7 +306,16 @@ nav .nav-menu .nav-sel{
 /*Dominio*/
 
 #dominio{
-    background-color: #EEEEEE;
+    background: url(../img/back-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
+
+#dominio .funbox:hover{
+    background-color: #FC5A49;
+    border: 1px solid #FC5A49;
 }
 
 .funbox-title{
@@ -284,24 +331,47 @@ nav .nav-menu .nav-sel{
 /*NORMATIVA*/
 
 #normativa{
+    background: url(../img/back-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 3;
     position: relative;
-    background-color: #ACD4D6;
-    color: white;
+}
+
+#normativa .funbox:hover{
+    background-color: #04A894;
+    border: 1px solid #04A894;
 }
 
 /*NIC*/
 
 #nic{
-    background-color: #e8e8e8;
+    background: url(../img/back-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 2;
     position: relative;
+}
+
+#nic .funbox:hover{
+    background-color: #EF8E00;
+    border: 1px solid #EF8E00;
 }
 
 
 /*HOSTING*/
 
 #hosting{
-    background-color: #ff5959;
-    color: white;
+    background: url(../img/back-4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
+
+#hosting .funbox:hover{
+    background-color: #0078BA;
+    border: 1px solid #0078BA;
 }
 
 /*footer*/
